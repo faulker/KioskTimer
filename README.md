@@ -19,22 +19,22 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Faulk_Me\KioskTimer
 32 bit Windows systems:
 HKEY_LOCAL_MACHINE\SOFTWARE\Faulk_Me\KioskTimer
 
-```Coors```
+## Coors
 * BackgroundColor [DWORD] - The KioskTimer background color.
 * ForegroundColor [DWORD] - The KioskTimer foreground color.
 
-```Times```
+## Times
 * Timeout [DWORD] - Session time.
 * LockoutTime [DWORD] - Time before a new session can start.
 * WarnTime [DWORD] - Time before session ends that user will get WarnMsg altering them to the session almost ending.
 
 
-```Messages/Text```
+## Messages/Text
 * LogInMessage [SZ] - The message on the main screen of the KioskTimer. (Excepts variables: see Message Variables session)
 * UserLogInButton [SZ] - The text of the button the user will click to start a session.
 * WarnMsg [SZ] - The Message the user will get before the session ends. (Excepts variables: see Message Variables session)
 
-```Other```
+## Other
 * PasswordHash [SZ] - A BCrypt hashed password.
 
 
