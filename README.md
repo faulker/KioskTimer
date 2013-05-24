@@ -26,9 +26,9 @@ All settings are held in the registry under one key:
 
 
 #### Messages/Text
-* LogInMessage [SZ] - The message on the main screen of the KioskTimer. (Excepts variables: see Message Variables session)
+* LogInMessage [SZ] - The message on the main screen of the KioskTimer. (Excepts variables: see Message Variables)
 * UserLogInButton [SZ] - The text of the button the user will click to start a session.
-* WarnMsg [SZ] - The Message the user will get before the session ends. (Excepts variables: see Message Variables session)
+* WarnMsg [SZ] - The Message the user will get before the session ends. (Excepts variables: see Message Variables)
 
 #### Other
 * PasswordHash [SZ] - A BCrypt hashed password.
