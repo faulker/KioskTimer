@@ -12,12 +12,8 @@ Configuration
 -----
 
 All settings are held in the registry under one key:
-
-64 bit Windows systems:
-HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Faulk_Me\KioskTimer
-
-32 bit Windows systems:
-HKEY_LOCAL_MACHINE\SOFTWARE\Faulk_Me\KioskTimer
+* 64 bit Windows systems: HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Faulk_Me\KioskTimer
+* 32 bit Windows systems: HKEY_LOCAL_MACHINE\SOFTWARE\Faulk_Me\KioskTimer
 
 #### Coors
 * BackgroundColor [DWORD] - The KioskTimer background color.
