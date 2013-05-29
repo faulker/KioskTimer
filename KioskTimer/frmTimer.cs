@@ -29,7 +29,11 @@ namespace KioskTimer
 
         private void cmdEndSession_Click(object sender, EventArgs e)
         {
-            endSession();
+            DialogResult eSession = MessageBox.Show("End session?", "Done?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (eSession == DialogResult.Yes)
+            {
+                endSession();
+            }
         }
 
         private void countdownTimer()
